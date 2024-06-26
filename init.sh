@@ -8,7 +8,7 @@ fi
 
 # Set the repository URL
 REPO_URL="$1"
-CLONE_DIR="/home/onyxia/work/funathon-sujet4"
+CLONE_DIR="https://github.com/MaximeExavier/funathon2024_sujet4.git"
 
 # Clone the course repository
 git clone --depth 1 $REPO_URL $CLONE_DIR
